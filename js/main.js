@@ -43,7 +43,7 @@ var flipCard = function(cardId) {
   console.log("hearts");
   console.log("flipped over");
   console.log ("User flipped queen " + cards[cardId].rank);
-  cardsInPlay.push(cards[cardId].queen);
+  cardsInPlay.push(cards[cardId].rank);
   checkForMatch();
 }
 flipCard(0);
